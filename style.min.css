@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: blue;
+}
+
+
+
+
+
+/* Définition des styles par défaut pour la balise <h1> */
+.zoom-text {
+  font-size: 24px; /* Taille de police de départ */
+  transition: font-size 0.3s ease-in-out; /* Animation de transition pour une animation fluide */
+  cursor: pointer; /* Affichage du curseur en tant que pointeur */
+}
+
+/* Définition des styles pour la survol (hover) */
+.zoom-text:hover {
+  font-size: 36px; /* Taille de police augmentée au survol */
+}
+
