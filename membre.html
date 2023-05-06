@@ -6,6 +6,14 @@
     <link rel="stylesheet" type="text/css" href="style.min.css">
   </head>
   <body>
+      <p id="datetime"></p>
+      <script>
+    setInterval(function() {
+      var currentDateTime = new Date();
+      var datetimeElement = document.getElementById("datetime");
+      datetimeElement.innerHTML = currentDateTime.toLocaleString();
+    }, 1000); // Mettre à jour toutes les secondes
+  </script>
     <header>
       <nav>
         <ul>
